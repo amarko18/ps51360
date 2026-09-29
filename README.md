@@ -7,6 +7,11 @@ Supported firmware: 7.00 through 13.60.
 - The default payloads are stored in `payloads/` after a successful run, the ELF loader listens on port `9021`.
 - After elfldr starts on port `9021`, you can press R2 to send `kstuff.elf`, `shadowmountplus.elf`, then `etaHEN.elf`.
 
+-في إعدادات الشبكة، اضبط DNS الأساسي على 45.56.67.85 (موصى به)
+يجري بايثون سيرف.بي محليًا، أو مفتوحًا https://amarko18.github.io/ps51360/ على PS5.
+يتم تخزين الحمولات الافتراضية في الحمولات/ بعد التشغيل الناجح، يستمع محمل ELF على المنفذ 9021.
+بعد بدء تشغيل elfldr على المنفذ 9021، يمكنك الضغط على R2 للإرسال كستاف.إلف، shadowmountplus.elfثم إيتاهين.إلف.
+
 ## Stability notes
 Webkit may need several attempts, reload the page if the browser stalls. The kernel exploit may hang or panic the console, so reboot before trying again if that happens.
 
